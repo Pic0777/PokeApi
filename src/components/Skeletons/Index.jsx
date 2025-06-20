@@ -1,0 +1,13 @@
+import * as React from 'react';
+import Skeleton from '@mui/material/Skeleton';
+import Stack from '@mui/material/Stack';
+
+export default function Skeletons() {
+  return (
+    <>
+      <Skeleton variant="rounded" width={"100%"} height={150} />
+      <Skeleton variant="rounded" width={"100%"} height={150} />
+      <Skeleton variant="rounded" width={"100%"} height={150} />
+    </>
+  );
+}
