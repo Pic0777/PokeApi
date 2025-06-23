@@ -62,7 +62,7 @@ export const Profile = ({ pokemonData, pokemonSpeciesData }) => {
         )}
       </Box>
       <Divider>Golpes</Divider>
-      <Box textAlign={"center"} marginTop={'5px'}>
+      <Box textAlign={"justify"} marginTop={'5px'} padding={"5%"}>
         {pokemonData.moves.map((moveData) => <Chip sx={{margin: '5px', fontWeight: 'bold'}} label={moveData.move.name} onClick={() => {}}/>)}
       </Box>
 
